@@ -1,5 +1,6 @@
 
 const printStar = (arr)=>{
+    arr.sort()
     let maxSize=arr[0]+arr[arr.length-1]+1;
     let matrix=new Array();
     for(var i=0;i<arr.length;i++)
